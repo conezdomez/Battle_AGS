@@ -1,0 +1,1 @@
+var gamefiles = ['Battle_AGS.ags', 'acsetup.cfg'];
