@@ -19,7 +19,7 @@
   </Component>
   <WorkspaceState>
     <LastBuildConfiguration>Debug</LastBuildConfiguration>
-    <LastBuildGameFileName>DataFile=Battle_AGS,Windows=Battle_AGS,_Debug=Scrap_Story,Web=Battle_AGS,</LastBuildGameFileName>
+    <LastBuildGameFileName>DataFile=Scrap_Story,Windows=Scrap_Story,_Debug=Scrap_Story,Web=Scrap_Story,</LastBuildGameFileName>
     <RequiresRebuild>False</RequiresRebuild>
   </WorkspaceState>
 </AGSEditorUserData>
