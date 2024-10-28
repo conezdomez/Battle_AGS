@@ -661,7 +661,7 @@
             <Number>2</Number>
           </UnloadedRoom>
           <UnloadedRoom>
-            <Description IsNull="True" />
+            <Description>Ignore</Description>
             <Number>3</Number>
           </UnloadedRoom>
           <UnloadedRoom>
@@ -2683,7 +2683,7 @@
             <IdleDelay>20</IdleDelay>
             <IdleView>8</IdleView>
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeed>5</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
             <NormalView>8</NormalView>
@@ -5871,7 +5871,14 @@ stop
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>0</ID>
-                        <Image>0</Image>
+                        <Image>39</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>1</ID>
+                        <Image>40</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
@@ -5884,7 +5891,14 @@ stop
                         <Delay>0</Delay>
                         <Flipped>False</Flipped>
                         <ID>0</ID>
-                        <Image>0</Image>
+                        <Image>39</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>1</ID>
+                        <Image>40</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
@@ -5892,7 +5906,22 @@ stop
                   <Loop>
                     <ID>3</ID>
                     <RunNextLoop>False</RunNextLoop>
-                    <Frames />
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>39</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>1</ID>
+                        <Image>40</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
                   </Loop>
                 </Loops>
               </View>

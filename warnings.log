@@ -1,1 +1,1 @@
-Game : (room:1)[R 24] SetObjectFrame: invalid loop number used for view 2 (10, range is 0 - 0)
+Game : (room:4)[R 37] Wait() was used in Player Enters Screen - use Enters Screen After Fadein instead
