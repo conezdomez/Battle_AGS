@@ -1,1 +1,1 @@
-Game : (room:4)[R 37] Wait() was used in Player Enters Screen - use Enters Screen After Fadein instead
+Game : (room:6)[D 4] WARNING: Character cbird speech view 7 does not have necessary loop 1; switching to loop 0.
