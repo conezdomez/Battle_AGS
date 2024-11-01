@@ -12,7 +12,7 @@
       <AntiAliasFonts>False</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
       <AttachDataToExe>False</AttachDataToExe>
-      <AudioIndexer>5</AudioIndexer>
+      <AudioIndexer>6</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BuildTargets xml:space="preserve">Windows, Web</BuildTargets>
@@ -941,14 +941,14 @@
                 <Font>0</Font>
                 <Height>27</Height>
                 <ID>6</ID>
-                <Image>2128</Image>
+                <Image>43</Image>
                 <Left>193</Left>
                 <Locked>False</Locked>
-                <MouseoverImage>2129</MouseoverImage>
+                <MouseoverImage>44</MouseoverImage>
                 <Name>btnIconSave</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>btnIconSave_Click</OnClick>
-                <PushedImage>2130</PushedImage>
+                <PushedImage>45</PushedImage>
                 <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
@@ -966,14 +966,14 @@
                 <Font>0</Font>
                 <Height>27</Height>
                 <ID>7</ID>
-                <Image>2132</Image>
+                <Image>46</Image>
                 <Left>225</Left>
                 <Locked>False</Locked>
-                <MouseoverImage>2133</MouseoverImage>
+                <MouseoverImage>47</MouseoverImage>
                 <Name>btnIconLoad</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>btnIconLoad_Click</OnClick>
-                <PushedImage>2134</PushedImage>
+                <PushedImage>48</PushedImage>
                 <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
@@ -2777,8 +2777,7 @@ return
 cbird: Eh. Same ol' same ol'. Not enough trouble to get into! Sqwa-Sqwa-Sqwa!
 return
 @3
-cbird: Alright... but only cause I'm feelin' nice today, big nose. Here, take it.
-run-script 1
+cbird: For free? Sqwa! You wish buddy! Though... I'm feeling peckish... maybe some seed would change my mind!
 return
 @4
 cbird: Yea yea, scram! I've got some mischief ta get into!
@@ -2801,7 +2800,7 @@ stop
                 <ID>3</ID>
                 <Say>True</Say>
                 <Show>True</Show>
-                <Text xml:space="preserve">Could I have the other piece of Freddy's Bowtie?</Text>
+                <Text xml:space="preserve">Could I have the other piece of Freddy's bowtie?</Text>
               </DialogOption>
               <DialogOption>
                 <ID>4</ID>
@@ -2846,10 +2845,10 @@ stop
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <AnimationDelay>5</AnimationDelay>
-        <HotspotX>1</HotspotX>
-        <HotspotY>1</HotspotY>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
         <ID>2</ID>
-        <Image>2057</Image>
+        <Image>42</Image>
         <Name>Interact</Name>
         <StandardMode>True</StandardMode>
         <View>0</View>
@@ -3258,6 +3257,11 @@ stop
         <GlobalVariable>
           <DefaultValue>0</DefaultValue>
           <Name>Fin_BirdPuzzle</Name>
+          <Type>int</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>0</DefaultValue>
+          <Name>BirdSeed</Name>
           <Type>int</Type>
         </GlobalVariable>
       </Variables>
@@ -4005,6 +4009,96 @@ stop
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
+                  <Sprite Slot="43" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\wbattle\Downloads\SaveIcon.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="44" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\wbattle\Downloads\SaveIconHover.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="45" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\wbattle\Downloads\SaveIconClick.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="46" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\wbattle\Downloads\LoadIcon.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="47" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\wbattle\Downloads\LoadIconHover.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="48" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\wbattle\Downloads\LoadIconClick.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
                 </Sprites>
               </SpriteFolder>
               <SpriteFolder Name="TextWindow">
@@ -4447,6 +4541,21 @@ stop
                       <OffsetY>0</OffsetY>
                       <ImportHeight>17</ImportHeight>
                       <ImportWidth>17</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="42" Width="24" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\wbattle\Downloads\New Piskel (5).png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>24</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -5940,6 +6049,60 @@ stop
                   </Loop>
                 </Loops>
               </View>
+              <View>
+                <ID>9</ID>
+                <Name>cbird_laugh</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>0</ID>
+                        <Image>40</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>1</ID>
+                        <Image>39</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>2</ID>
+                        <Image>40</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>3</ID>
+                        <Image>39</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>4</ID>
+                        <Image>40</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                      <ViewFrame>
+                        <Delay>0</Delay>
+                        <Flipped>False</Flipped>
+                        <ID>5</ID>
+                        <Image>39</Image>
+                        <Sound>0</Sound>
+                      </ViewFrame>
+                    </Frames>
+                  </Loop>
+                </Loops>
+              </View>
             </Views>
           </ViewFolder>
         </SubFolders>
@@ -6354,6 +6517,19 @@ See KeyboardMovement.txt for details.
                 <SourceFileName xml:space="preserve">C:\Users\willi\Downloads\Minecraft Pop - Sound effect.mp3</SourceFileName>
                 <Type>3</Type>
                 <FileLastModifiedDate>2024-09-05 00:51:30Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>4</ID>
+                <Index>6</Index>
+                <ScriptName>aLancer_Laugh__Deltarune_</ScriptName>
+                <SourceFileName xml:space="preserve">C:\Users\wbattle\Downloads\Lancer Laugh (Deltarune).mp3</SourceFileName>
+                <Type>3</Type>
+                <FileLastModifiedDate>2024-11-01 04:18:05Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
