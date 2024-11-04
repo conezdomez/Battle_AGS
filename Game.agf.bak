@@ -12,7 +12,7 @@
       <AntiAliasFonts>False</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
       <AttachDataToExe>False</AttachDataToExe>
-      <AudioIndexer>6</AudioIndexer>
+      <AudioIndexer>7</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BuildTargets xml:space="preserve">Windows, Web</BuildTargets>
@@ -689,9 +689,9 @@
         <GUIs>
           <GUIMain>
             <NormalGUI>
-              <BackgroundColor>32089</BackgroundColor>
-              <BackgroundImage>0</BackgroundImage>
-              <BorderColor>32089</BorderColor>
+              <BackgroundColor>65333</BackgroundColor>
+              <BackgroundImage>60</BackgroundImage>
+              <BorderColor>65333</BorderColor>
               <Clickable>True</Clickable>
               <Height>14</Height>
               <ID>0</ID>
@@ -791,14 +791,14 @@
                 <Font>0</Font>
                 <Height>27</Height>
                 <ID>0</ID>
-                <Image>2100</Image>
+                <Image>85</Image>
                 <Left>1</Left>
                 <Locked>False</Locked>
-                <MouseoverImage>2101</MouseoverImage>
+                <MouseoverImage>86</MouseoverImage>
                 <Name>btnIconWalk</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick />
-                <PushedImage>2102</PushedImage>
+                <PushedImage>87</PushedImage>
                 <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
@@ -816,14 +816,14 @@
                 <Font>0</Font>
                 <Height>27</Height>
                 <ID>1</ID>
-                <Image>2104</Image>
+                <Image>82</Image>
                 <Left>33</Left>
                 <Locked>False</Locked>
-                <MouseoverImage>2105</MouseoverImage>
+                <MouseoverImage>83</MouseoverImage>
                 <Name>btnIconExamine</Name>
                 <NewModeNumber>1</NewModeNumber>
                 <OnClick />
-                <PushedImage>2106</PushedImage>
+                <PushedImage>84</PushedImage>
                 <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
@@ -841,14 +841,14 @@
                 <Font>0</Font>
                 <Height>27</Height>
                 <ID>2</ID>
-                <Image>2108</Image>
+                <Image>79</Image>
                 <Left>65</Left>
                 <Locked>False</Locked>
-                <MouseoverImage>2109</MouseoverImage>
+                <MouseoverImage>80</MouseoverImage>
                 <Name>btnIconInteract</Name>
                 <NewModeNumber>2</NewModeNumber>
                 <OnClick />
-                <PushedImage>2110</PushedImage>
+                <PushedImage>81</PushedImage>
                 <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
@@ -866,14 +866,14 @@
                 <Font>0</Font>
                 <Height>27</Height>
                 <ID>3</ID>
-                <Image>2112</Image>
+                <Image>76</Image>
                 <Left>97</Left>
                 <Locked>False</Locked>
-                <MouseoverImage>2113</MouseoverImage>
+                <MouseoverImage>77</MouseoverImage>
                 <Name>btnIconTalk</Name>
                 <NewModeNumber>3</NewModeNumber>
                 <OnClick />
-                <PushedImage>2114</PushedImage>
+                <PushedImage>78</PushedImage>
                 <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
@@ -891,14 +891,14 @@
                 <Font>0</Font>
                 <Height>27</Height>
                 <ID>4</ID>
-                <Image>2120</Image>
+                <Image>73</Image>
                 <Left>129</Left>
                 <Locked>False</Locked>
-                <MouseoverImage>2121</MouseoverImage>
+                <MouseoverImage>74</MouseoverImage>
                 <Name>btnIconInv</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>btnIconInv_Click</OnClick>
-                <PushedImage>2122</PushedImage>
+                <PushedImage>75</PushedImage>
                 <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
@@ -916,14 +916,14 @@
                 <Font>0</Font>
                 <Height>27</Height>
                 <ID>5</ID>
-                <Image>2124</Image>
+                <Image>68</Image>
                 <Left>161</Left>
                 <Locked>False</Locked>
-                <MouseoverImage>2124</MouseoverImage>
+                <MouseoverImage>68</MouseoverImage>
                 <Name>btnIconCurInv</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>btnIconCurInv_Click</OnClick>
-                <PushedImage>2126</PushedImage>
+                <PushedImage>69</PushedImage>
                 <Text>(INVSHR)</Text>
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
@@ -991,14 +991,14 @@
                 <Font>0</Font>
                 <Height>27</Height>
                 <ID>8</ID>
-                <Image>2140</Image>
+                <Image>65</Image>
                 <Left>289</Left>
                 <Locked>False</Locked>
-                <MouseoverImage>2141</MouseoverImage>
+                <MouseoverImage>66</MouseoverImage>
                 <Name>btnIconExit</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>btnIconExit_Click</OnClick>
-                <PushedImage>2142</PushedImage>
+                <PushedImage>67</PushedImage>
                 <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
@@ -1016,14 +1016,14 @@
                 <Font>0</Font>
                 <Height>27</Height>
                 <ID>9</ID>
-                <Image>2136</Image>
+                <Image>70</Image>
                 <Left>257</Left>
                 <Locked>False</Locked>
-                <MouseoverImage>2137</MouseoverImage>
+                <MouseoverImage>71</MouseoverImage>
                 <Name>btnIconPanel</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>btnIconPanel_Click</OnClick>
-                <PushedImage>2138</PushedImage>
+                <PushedImage>72</PushedImage>
                 <Text />
                 <TextAlignment>TopCenter</TextAlignment>
                 <TextColor>16</TextColor>
@@ -1937,12 +1937,12 @@
           </GUIMain>
           <GUIMain>
             <TextWindowGUI>
-              <BackgroundColor>19248</BackgroundColor>
+              <BackgroundColor>65333</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
               <ID>7</ID>
               <Name>gTextBorder</Name>
               <Padding>3</Padding>
-              <TextColor>65523</TextColor>
+              <TextColor>200</TextColor>
             </TextWindowGUI>
             <Controls>
               <GUITextWindowEdge>
@@ -1950,7 +1950,7 @@
                 <Enabled>True</Enabled>
                 <Height>10</Height>
                 <ID>0</ID>
-                <Image>2150</Image>
+                <Image>56</Image>
                 <Left>0</Left>
                 <Locked>False</Locked>
                 <Name />
@@ -1965,7 +1965,7 @@
                 <Enabled>True</Enabled>
                 <Height>10</Height>
                 <ID>1</ID>
-                <Image>2155</Image>
+                <Image>58</Image>
                 <Left>0</Left>
                 <Locked>False</Locked>
                 <Name />
@@ -1980,7 +1980,7 @@
                 <Enabled>True</Enabled>
                 <Height>10</Height>
                 <ID>2</ID>
-                <Image>2152</Image>
+                <Image>59</Image>
                 <Left>90</Left>
                 <Locked>False</Locked>
                 <Name />
@@ -1995,7 +1995,7 @@
                 <Enabled>True</Enabled>
                 <Height>10</Height>
                 <ID>3</ID>
-                <Image>2157</Image>
+                <Image>57</Image>
                 <Left>90</Left>
                 <Locked>False</Locked>
                 <Name />
@@ -2010,7 +2010,7 @@
                 <Enabled>True</Enabled>
                 <Height>10</Height>
                 <ID>4</ID>
-                <Image>2153</Image>
+                <Image>63</Image>
                 <Left>0</Left>
                 <Locked>False</Locked>
                 <Name />
@@ -2025,7 +2025,7 @@
                 <Enabled>True</Enabled>
                 <Height>10</Height>
                 <ID>5</ID>
-                <Image>2154</Image>
+                <Image>64</Image>
                 <Left>90</Left>
                 <Locked>False</Locked>
                 <Name />
@@ -2040,7 +2040,7 @@
                 <Enabled>True</Enabled>
                 <Height>10</Height>
                 <ID>6</ID>
-                <Image>2151</Image>
+                <Image>62</Image>
                 <Left>40</Left>
                 <Locked>False</Locked>
                 <Name />
@@ -2055,7 +2055,7 @@
                 <Enabled>True</Enabled>
                 <Height>10</Height>
                 <ID>7</ID>
-                <Image>2156</Image>
+                <Image>61</Image>
                 <Left>40</Left>
                 <Locked>False</Locked>
                 <Name />
@@ -2698,7 +2698,7 @@
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
             <Interactions>
               <Event Index="0" />
-              <Event Index="1" />
+              <Event Index="1">cfreddy_Interact</Event>
               <Event Index="2">cfreddy_Talk</Event>
               <Event Index="3">cfreddy_UseInv</Event>
               <Event Index="4" />
@@ -2742,7 +2742,7 @@
               <Event Index="0">cbird_Look</Event>
               <Event Index="1">cbird_Interact</Event>
               <Event Index="2">cbird_Talk</Event>
-              <Event Index="3" />
+              <Event Index="3">cbird_UseInv</Event>
               <Event Index="4" />
               <Event Index="5">cbird_PickUp</Event>
               <Event Index="6" />
@@ -2870,10 +2870,10 @@ stop
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <AnimationDelay>5</AnimationDelay>
-        <HotspotX>15</HotspotX>
-        <HotspotY>15</HotspotY>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
         <ID>1</ID>
-        <Image>2</Image>
+        <Image>89</Image>
         <Name xml:space="preserve">Look at</Name>
         <StandardMode>True</StandardMode>
         <View>0</View>
@@ -2896,10 +2896,10 @@ stop
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <AnimationDelay>5</AnimationDelay>
-        <HotspotX>1</HotspotX>
-        <HotspotY>1</HotspotY>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
         <ID>3</ID>
-        <Image>2058</Image>
+        <Image>88</Image>
         <Name xml:space="preserve">Talk to</Name>
         <StandardMode>True</StandardMode>
         <View>0</View>
@@ -2948,10 +2948,10 @@ stop
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <AnimationDelay>5</AnimationDelay>
-        <HotspotX>6</HotspotX>
-        <HotspotY>10</HotspotY>
+        <HotspotX>15</HotspotX>
+        <HotspotY>12</HotspotY>
         <ID>7</ID>
-        <Image>2055</Image>
+        <Image>90</Image>
         <Name>Wait</Name>
         <StandardMode>False</StandardMode>
         <View>0</View>
@@ -3300,6 +3300,11 @@ stop
         <GlobalVariable>
           <DefaultValue>0</DefaultValue>
           <Name>BirdSeed</Name>
+          <Type>int</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>0</DefaultValue>
+          <Name>VFX_Freddy</Name>
           <Type>int</Type>
         </GlobalVariable>
       </Variables>
@@ -4137,6 +4142,351 @@ stop
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
+                  <Sprite Slot="65" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\Verbs\VerbPower1.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="66" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\Verbs\VerbPower2.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="67" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\Verbs\VerbPower3.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="68" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\Verbs\VerbDefault1.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="69" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\Verbs\VerbDefault2.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="70" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\Verbs\VerbSettings1.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="71" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\Verbs\VerbSettings2.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="72" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\Verbs\VerbSettings3.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="73" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\Verbs\VerbInv1.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="74" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\Verbs\VerbInv2.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="75" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\Verbs\VerbInv3.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="76" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\Verbs\VerbDialogue1.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="77" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\Verbs\VerbDialogue2.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="78" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\Verbs\VerbDialogue3.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="79" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\Verbs\VerbGrab1.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="80" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\Verbs\VerbGrab2.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="81" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\Verbs\VerbGrab3.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="82" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\Verbs\VerbInspect1.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="83" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\Verbs\VerbInspect2.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="84" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\Verbs\VerbInspect3.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="85" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\Verbs\VerbWalk1.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="86" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\Verbs\VerbWalk2.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="87" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\Verbs\VerbWalk3.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
                 </Sprites>
               </SpriteFolder>
               <SpriteFolder Name="TextWindow">
@@ -4253,6 +4603,141 @@ stop
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>4</ImportHeight>
+                      <ImportWidth>4</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="56" Width="4" Height="4" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\TextWindow\Textwindows\TopLeft1.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>4</ImportHeight>
+                      <ImportWidth>4</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="57" Width="4" Height="4" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\TextWindow\Textwindows\TopLeft2.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>4</ImportHeight>
+                      <ImportWidth>4</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="58" Width="4" Height="4" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\TextWindow\Textwindows\TopLeft3.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>4</ImportHeight>
+                      <ImportWidth>4</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="59" Width="4" Height="4" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\TextWindow\Textwindows\TopLeft4.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>4</ImportHeight>
+                      <ImportWidth>4</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="60" Width="320" Height="14" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\TextWindow\Textwindows\StatusBorder.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>14</ImportHeight>
+                      <ImportWidth>320</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="61" Width="1" Height="4" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\TextWindow\Textwindows\rows1.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>4</ImportHeight>
+                      <ImportWidth>1</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="62" Width="1" Height="4" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\TextWindow\Textwindows\rows2.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>4</ImportHeight>
+                      <ImportWidth>1</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="63" Width="4" Height="1" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\TextWindow\Textwindows\middle1.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>1</ImportHeight>
+                      <ImportWidth>4</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="64" Width="4" Height="1" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\TextWindow\Textwindows\middle2.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>1</ImportHeight>
                       <ImportWidth>4</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
@@ -4594,6 +5079,51 @@ stop
                       <OffsetY>0</OffsetY>
                       <ImportHeight>27</ImportHeight>
                       <ImportWidth>24</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="89" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\Cursors\Inspect.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="88" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\Cursors\Speak.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="90" Width="32" Height="27" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\Cursors\wait.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>27</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>
@@ -5679,6 +6209,61 @@ stop
             </SubFolders>
             <Sprites />
           </SpriteFolder>
+          <SpriteFolder Name="Animations">
+            <SubFolders>
+              <SpriteFolder Name="Victory Board">
+                <SubFolders />
+                <Sprites>
+                  <Sprite Slot="53" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\Objective Board\Frames\Board_VictoryVFX1.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>200</ImportHeight>
+                      <ImportWidth>320</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="54" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\Objective Board\Frames\Board_VictoryVFX2.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>200</ImportHeight>
+                      <ImportWidth>320</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="55" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\willi\OneDrive\Desktop\AGS Work\Assets\Objective Board\Frames\Board_VictoryVFX3.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>200</ImportHeight>
+                      <ImportWidth>320</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                </Sprites>
+              </SpriteFolder>
+            </SubFolders>
+            <Sprites />
+          </SpriteFolder>
         </SubFolders>
         <Sprites>
           <Sprite Slot="0" Width="10" Height="6" ColorDepth="32" Resolution="Real" AlphaChannel="False">
@@ -6563,7 +7148,7 @@ See KeyboardMovement.txt for details.
                 <ScriptName>aHip_Shop</ScriptName>
                 <SourceFileName xml:space="preserve">C:\Users\wbattle\Downloads\Hip Shop.mp3</SourceFileName>
                 <Type>2</Type>
-                <FileLastModifiedDate>2024-10-04 16:56:46Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2024-10-25 01:27:06Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -6576,7 +7161,7 @@ See KeyboardMovement.txt for details.
                 <ScriptName>aUndertale_OST__015___sans_</ScriptName>
                 <SourceFileName xml:space="preserve">C:\Users\wbattle\Downloads\Undertale OST_ 015 - sans..mp3</SourceFileName>
                 <Type>2</Type>
-                <FileLastModifiedDate>2024-10-04 17:01:40Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2024-10-25 01:27:06Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -6589,7 +7174,7 @@ See KeyboardMovement.txt for details.
                 <ScriptName>aUndertale_OST__013___Home__Music_Box_</ScriptName>
                 <SourceFileName xml:space="preserve">C:\Users\wbattle\Downloads\Undertale OST_ 013 - Home (Music Box).mp3</SourceFileName>
                 <Type>2</Type>
-                <FileLastModifiedDate>2024-10-04 17:01:24Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2024-10-25 01:27:06Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
@@ -6628,6 +7213,19 @@ See KeyboardMovement.txt for details.
                 <SourceFileName xml:space="preserve">C:\Users\wbattle\Downloads\Lancer Laugh (Deltarune).mp3</SourceFileName>
                 <Type>3</Type>
                 <FileLastModifiedDate>2024-11-01 04:18:05Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>5</ID>
+                <Index>7</Index>
+                <ScriptName>aFnaf_Nose_Honk___Meme_Effect_Sound</ScriptName>
+                <SourceFileName xml:space="preserve">C:\Users\willi\Downloads\Fnaf Nose Honk - Meme Effect Sound.mp3</SourceFileName>
+                <Type>3</Type>
+                <FileLastModifiedDate>2024-11-04 05:21:30Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
